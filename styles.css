@@ -1,0 +1,28 @@
+.navbar {
+    height: 15%;
+    min-height: 50px;
+}
+
+.navbar-brand, nav, .jumbatron{
+    background-color: #206040;
+}
+
+.footer p {
+    margin-bottom: 0px;
+}
+
+.navbar-brand, .nav-link, .jumbatron{
+    color: white;
+}
+
+.nav-item:hover {
+    background-color: #39ac73;
+}
+
+.navbar-brand:hover, .nav-link:hover {
+    color: white;
+}
+
+.active {
+    background-color: #39ac73;
+}
