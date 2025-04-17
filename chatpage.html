@@ -18,10 +18,10 @@
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
             <ul class="nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="intropage.html">Intro</a>
+                    <a class="nav-link" href="intropage.html">Introduction</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="infopage.html">Info</a>
+                    <a class="nav-link" href="infopage.html">Information</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link active" href="chatpage.html">Chat</a>
@@ -31,7 +31,34 @@
         <a class="navbar-brand">Information about me</a>
     </nav>
 
-    
+    <div class="sidenav">
+        <div class="inbox__people">
+            <h4>Active users</h4>
+          </div>
+
+      </div>
+      
+      
+      <br>
+      <hr>
+      <div class="content">
+        <div class="messages__history"></div>
+          <div class="fallback"></div>
+        <div class="inbox__messages">
+            
+          
+        </div>
+
+        <form class="message_form">
+            <input type="text" class="message_form__input" placeholder="Type a message" />
+            <button class="message_form__button" type="submit">
+              Enter
+            </button>
+          </form>
+      </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/js/client.js"></script>
 
     <div class="footer jumbatron text-center">
         <p>About Me 2025</p>
