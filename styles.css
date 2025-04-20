@@ -26,3 +26,33 @@
 .active {
     background-color: #39ac73;
 }
+
+
+.row {
+    margin: 20px;
+}
+
+#infopage-images {
+    flex-direction: row;
+    display: flex;
+}
+
+.volleyball-image {
+    display: block;
+    width: 100%;
+}
+
+.crafting-image {
+    display: block;
+    width: 50%;
+}
+
+.kayak-sup-image {
+    display: block;
+    width: 50%;
+}
+
+.extra-image {
+    display: block;
+    width: 25%;
+}
