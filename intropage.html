@@ -3,7 +3,7 @@
 
 <head>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="java.js">
+    <script src="java.js"></script>
     <title>About Me | Intro Page</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,10 +14,17 @@
 </head>
 
 <body>
+
     <nav class="navbar navbar-expand-lg">
-        <a class="navbar-brand">ABOUT ME</a>
+        <a class="navbar-brand" href="#">About Me! </a>
+        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"
+          aria-controls="collapsibleNavbar" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
-            <ul class="nav">
+            <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
                     <a class="nav-link active" href="intropage.html">Introduction</a>
                 </li>
@@ -29,23 +36,56 @@
                 </li>
             </ul>
         </div>
-        <a class="navbar-brand">Information about me</a>
     </nav>
 
     <div class="container">
-        <div class="col-sm-6">
-            <h2>About Me</h2>
-            <p>Hi, my name is Lucia, and I am currently in my first year studying Computing Science and 
-                Mathematics at The University of Aberdeen. I took maths, computing, physical education and 
-                woodwork in my last year at school. In my spare time I enjoy volleyball, kayaking, and 
-                calisthenics and I have joined the university societies for each of these. To help fund my 
-                degree I have a job with Sport Aberdeen as a lifeguard.
-            </p>
+        <div class="row">
+            <div class="col-sm-6">
+                <h2>About Me</h2>
+                <p>Hi, my name is Lucia, and I am currently in my first year studying Computing Science and 
+                    Mathematics at The University of Aberdeen. I took maths, computing, physical education and 
+                    woodwork in my last year at school. In my spare time I enjoy volleyball, kayaking, and 
+                    calisthenics and I have joined the university societies for each of these. To help fund my 
+                    degree I have a job with Sport Aberdeen as a lifeguard.
+                </p>
+            </div>
+            <div class="col-sm-6">
+                <p>Before moving to Aberdeen for University I lived in North Berwick. I went to Law Primary
+                    School and then North Berwick High School. I was born in Glasgow and lived there for 7 
+                    years of my life. I can't remeber much about Glasgow because I was quite young when we 
+                    moved howeven I do remember thinking it was too busy and loud! I much prefer North 
+                    Berwick where my parents house is. I t is a quiet costal town with lots of things to 
+                    do as a child and a younger teenager. I am enjoying my time in Aberdeen so far but 
+                    I would still rather be back at home in my small town.
+                </p>
+            </div>
+        </div>
+        <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=-4.3239784240722665%2C55.871940143741604%2C-4.295010566711427%2C55.88007745766366&amp;layer=mapnik&amp;marker=55.876009013877784%2C-4.309494495391846" style="border: 1px solid black"></iframe>
+        <div class="row">
+            <div class="col-sm-6">
+                <h2>More About Me</h2>
+                <p>In the future I hope to continue with all my sports and hobbies and enjoy my time at
+                    university. Next year I am hoping to join the rugby club and start surfing in aberdeen.
+                    I have many travel plans for my tme at university. This summer I am going to a
+                    childrens summer camp in Canada as a lifeguard and kayak instructor. I will be away
+                    for 11 weeks so hopffuly I come back with a really good tan!
+                </p>
+            </div>
+            <div class="col-sm-6">
+                <p>In terms of my future career I am still very undesided. I have wanted to join the
+                    RAF as a helicopter pilot for as long as I can remember but the application proccess 
+                    has been so long (two years and still going!) and I think I have been out off by it.
+                    I think after university I might do some vocational work or maybe a ski season before 
+                    I settle into a lifelong career. Once I have finnished university I will probably have
+                    a better idea of what I would like to do in life. For now I will just keep doing what
+                    I'm doing and hope for the best.
+                </p>
+            </div>
         </div>
     </div>
 
     <div class="footer jumbatron text-center">
-        <p>© 2025 About Me</p>
+        <p>&copy;  2025 About Me</p>  
     </div>
 </body>
 
