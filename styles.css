@@ -30,14 +30,12 @@ a {
     text-decoration: underline;
 }
 
-.navbar-toggler {
-    background-color: red;
+.navbar-toggler-icon {
+    background: red;
     border-color: red;
 }
 
 .navbar {
-    height: 15%;
-    min-height: 50px;
     width: 75%;
     margin: auto;
 }
