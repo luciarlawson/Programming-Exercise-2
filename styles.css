@@ -1,3 +1,31 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Style the side navigation */
+.sidenav {
+    height: 100%;
+    width: 270px;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #a3dcbb;
+    overflow-x: hidden;
+    margin-left: 12.5%;
+}
+
+  /*make the active user text inherit style from container*/
+.inbox__people{
+      color: white;
+      padding: 16px;
+}
+  
+  /* Style the content */
+.content {
+    margin-left: 200px;
+    padding-left: 20px;
+}
+
 a {
     text-decoration: underline;
 }
@@ -5,9 +33,9 @@ a {
 .navbar-toggler {
     background-color: red;
     border-color: red;
-  }
+}
 
-  .navbar {
+.navbar {
     height: 15%;
     min-height: 50px;
     width: 75%;

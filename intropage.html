@@ -1,11 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <link rel="stylesheet" href="styles.css">
     <script src="java.js"></script>
     <title>About Me | Intro Page</title>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
@@ -14,10 +16,12 @@
 </head>
 
 <body>
-
+    <!--Navigation bar (all pages)-->
+    <script src="js/client.js" async defer></script>
     <nav class="navbar navbar-expand-lg">
         <a class="navbar-brand" href="#">About Me! </a>
         
+        <!--Button for responsive nav bar-->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"
           aria-controls="collapsibleNavbar" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -25,12 +29,15 @@
       
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
             <ul class="navbar-nav mr-auto">
+                <!--Link to introduction page (active)-->
                 <li class="nav-item">
                     <a class="nav-link active" href="intropage.html">Introduction</a>
                 </li>
+                <!--Link to information page-->
                 <li class="nav-item">
                     <a class="nav-link" href="infopage.html">Information</a>
                 </li>
+                <!--Link to chat page-->
                 <li class="nav-item">
                     <a class="nav-link" href="chatpage.html">Chat</a>
                 </li>
@@ -38,8 +45,11 @@
         </div>
     </nav>
 
+    <!--Container for all the main content on the introduction page-->
     <div class="container">
+        <!--First row of text on the introduction page-->
         <div class="row">
+            <!--First column of text on the introduction page-->
             <div class="col-sm-6">
                 <h2>About Me</h2>
                 <p>Hi, my name is Lucia, and I am currently in my first year studying Computing Science and 
@@ -49,6 +59,7 @@
                     degree I have a job with Sport Aberdeen as a lifeguard.
                 </p>
             </div>
+            <!--Second column of text on the introduction page-->
             <div class="col-sm-6">
                 <p>Before moving to Aberdeen for University I lived in North Berwick. I went to Law Primary
                     School and then North Berwick High School. I was born in Glasgow and lived there for 7 
@@ -60,8 +71,11 @@
                 </p>
             </div>
         </div>
+        <!--Interactive map of where I lived in Glasgow-->
         <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=-4.3239784240722665%2C55.871940143741604%2C-4.295010566711427%2C55.88007745766366&amp;layer=mapnik&amp;marker=55.876009013877784%2C-4.309494495391846" style="border: 1px solid black"></iframe>
+        <!--Second row of text on the introduction page-->
         <div class="row">
+            <!--First column of text on the introduction page-->
             <div class="col-sm-6">
                 <h2>More About Me</h2>
                 <p>In the future I hope to continue with all my sports and hobbies and enjoy my time at
@@ -71,6 +85,7 @@
                     for 11 weeks so hopffuly I come back with a really good tan!
                 </p>
             </div>
+            <!--Second column of text on the introduction page-->
             <div class="col-sm-6">
                 <p>In terms of my future career I am still very undesided. I have wanted to join the
                     RAF as a helicopter pilot for as long as I can remember but the application proccess 
@@ -84,6 +99,7 @@
         </div>
     </div>
 
+    <!--Footer (all pages)-->
     <div class="footer jumbatron text-center">
         <p>&copy;  2025 About Me</p>  
     </div>
