@@ -3,10 +3,11 @@ a {
 }
 
 .navbar-toggler {
-    background-color: white;
-}
+    background-color: red;
+    border-color: red;
+  }
 
-.navbar {
+  .navbar {
     height: 15%;
     min-height: 50px;
     width: 75%;
