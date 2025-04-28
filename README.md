@@ -1,1 +1,10 @@
-# Programming-Exercise-2
+Documentation for my website
+
+- Development approach
+First I designed a basic layout for each webpage on paper. This helps me plan nwhat I need to do first and what I can get out of the way quickly. My paper design included all the requierments for each page. For the introduction page this ment writting a couple paragraphs about my self and deciding if I was going to have any images or just have the interactive map. I decided to keep all of the images for the information page. The information page took me quite a long time to do as I had to make sure all the images where in the corrent place and that they didnt stretch on I different screen size. I also added some external links to this page. I made sure these where underlined incase someone who was colour blind uses my website. After I had completed the set-up for the chat page I did a lot of testing to make sure it met the requirements. 
+
+- Challenges
+The main issue I had with this website was the responsize features for use on different screen sizes. The images are all placed using the  bootstrap grid system. This means everything aligns itself properly on any screen size. For the nav bar it took me a long time to make the drop dowm menu for smaller screen sizes. I had to make a drop down menu so the nav would fit. The thing that took me the longest was making the buttin visable. I didnt have the navbar-dark in the class for my navbar. This ment that even though the button was there it was invisable. Once I relised that was the propblem it worked perfectly.
+
+- Technical details of chat's client-server comunication
+in this chat application, the browser loads a web page that connects to a Node.js server. When the page opens, it creates a connection with the server. When a user types a message and presses "Enter," the message is sent from the browser to the server. The server listens for the message and then sends it to all other connected users. The new messages are shown instantly on everyone's screen without refreshing the page. Active users are also shown in the "Active users" section. All messages are sent quickly as small JSON packets.
